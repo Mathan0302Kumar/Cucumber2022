@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6564991700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClassSam.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Generating Order id",
+        "description": "",
+        "id": "generating-the-order-id-from-adactin-hotel-application;generating-order-id",
+        "after": [
+          {
+            "result": {
+              "duration": 686193100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClassSam.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Adactin1 hotel app page on chrome browser",
+            "match": {
+              "location": "StepDef1.user_is_on_Adactin_hotel_app_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2811839500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the username and password.",
+            "match": {
+              "location": "StepDef1.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.stepdef.StepDef1.user_should_click_the_login_button(StepDef1.java:33)\r\n\tat ✽.User should click the login button.(src/test/resources/Login.feature:7)\r\n",
+              "duration": 1940000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User should click the login button.",
+            "match": {
+              "location": "StepDef1.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User should verify homepage is displayed or not.",
+            "match": {
+              "location": "StepDef1.user_should_verify_homepage_is_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Generating the order id from adactin hotel application",
+    "description": "",
+    "id": "generating-the-order-id-from-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": []
+  }
+]

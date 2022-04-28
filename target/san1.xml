@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.067128">
+<testcase classname="Generating the order id from adactin hotel application" name="Generating Order id" time="10.067128">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdef.StepDef1.user_should_click_the_login_button(StepDef1.java:33)&#13;&#10;&#9;at ✽.User should click the login button.(src/test/resources/Login.feature:7)&#13;&#10;"><![CDATA[Given User is on Adactin1 hotel app page on chrome browser..................passed
+When User enters the username and password..................................passed
+And User should click the login button......................................failed
+Then User should verify homepage is displayed or not........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at org.stepdef.StepDef1.user_should_click_the_login_button(StepDef1.java:33)
+	at ✽.User should click the login button.(src/test/resources/Login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,405 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Generating Order id",
+        "description": "",
+        "id": "generating-the-10-numbers-of-order-id-from-adactin-hotel-application;generating-order-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6775035300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Adactin hotel app page on chrome browser",
+            "match": {
+              "location": "StepDef.user_is_on_Adactin_hotel_app_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 150376100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the \"Maddy0302\" and \"maddy@0302\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maddy0302\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"maddy@0302\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.user_enters_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1581138400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "StepDef.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567604400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select \"Melbourne\",\"Hotel Sunshine\",\"Deluxe\",\"1 - One\",\"24/04/2022\",\"25/04/2022\",\"1 - One\",\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"24/04/2022\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"25/04/2022\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 96
+                }
+              ],
+              "location": "StepDef.user_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 440618000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click continue button",
+            "match": {
+              "location": "StepDef.click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542843800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select Hotel and click continue for booking",
+            "match": {
+              "location": "StepDef.user_select_Hotel_and_click_continue_for_booking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 699187900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter \"Mathan\",\"Kumar\",\"Chennai\",\"1234432156788765\",\"VISA\",\"June\",\"2022\",\"345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mathan\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"1234432156788765\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"345\"",
+                  "offset": 78
+                }
+              ],
+              "location": "StepDef.user_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72262200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on continue for generating order id",
+            "match": {
+              "location": "StepDef.user_click_on_continue_for_generating_order_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10105690900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User print order id in the console",
+            "match": {
+              "location": "StepDef.user_print_order_id_in_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Generating Order id",
+        "description": "",
+        "id": "generating-the-10-numbers-of-order-id-from-adactin-hotel-application;generating-order-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4400536200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Adactin hotel app page on chrome browser",
+            "match": {
+              "location": "StepDef.user_is_on_Adactin_hotel_app_page_on_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120456100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the \"Maddy0302\" and \"maddy@0302\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Maddy0302\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"maddy@0302\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDef.user_enters_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 573118100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the login button",
+            "match": {
+              "location": "StepDef.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 691761600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User select \"Sydney\",\"Hotel Hervey\",\"Super Deluxe\",\"1 - One\",\"25/04/2022\",\"26/04/2022\",\"2 - Two\",\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"25/04/2022\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"26/04/2022\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 87
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 97
+                }
+              ],
+              "location": "StepDef.user_select(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394431900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click continue button",
+            "match": {
+              "location": "StepDef.click_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445838000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User select Hotel and click continue for booking",
+            "match": {
+              "location": "StepDef.user_select_Hotel_and_click_continue_for_booking()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 478231900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enter \"Raj\",\"Kumar\",\"Madurai\",\"1234432837788765\",\"VISA\",\"July\",\"2022\",\"897\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Raj\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Madurai\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"1234432837788765\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"897\"",
+                  "offset": 75
+                }
+              ],
+              "location": "StepDef.user_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69284800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on continue for generating order id",
+            "match": {
+              "location": "StepDef.user_click_on_continue_for_generating_order_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10092825500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User print order id in the console",
+            "match": {
+              "location": "StepDef.user_print_order_id_in_the_console()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Generating the 10 numbers of order id from adactin hotel application",
+    "description": "",
+    "id": "generating-the-10-numbers-of-order-id-from-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/AdacticHotel.feature",
+    "tags": []
+  }
+]

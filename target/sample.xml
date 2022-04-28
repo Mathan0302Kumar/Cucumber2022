@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.205802">
+<testcase classname="Generating the 10 numbers of order id from adactin hotel application" name="Generating Order id" time="20.938551">
+<system-out><![CDATA[Given User is on Adactin hotel app page on chrome browser...................passed
+When User enters the "Maddy0302" and "maddy@0302"...........................passed
+And User should click the login button......................................passed
+When User select "Melbourne","Hotel Sunshine","Deluxe","1 - One","24/04/2022","25/04/2022","1 - One","0 - None".passed
+And Click continue button...................................................passed
+When User select Hotel and click continue for booking.......................passed
+When User enter "Mathan","Kumar","Chennai","1234432156788765","VISA","June","2022","345".passed
+And User click on continue for generating order id..........................passed
+Then User print order id in the console.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Generating the 10 numbers of order id from adactin hotel application" name="Generating Order id 2" time="17.267251">
+<system-out><![CDATA[Given User is on Adactin hotel app page on chrome browser...................passed
+When User enters the "Maddy0302" and "maddy@0302"...........................passed
+And User should click the login button......................................passed
+When User select "Sydney","Hotel Hervey","Super Deluxe","1 - One","25/04/2022","26/04/2022","2 - Two","1 - One".passed
+And Click continue button...................................................passed
+When User select Hotel and click continue for booking.......................passed
+When User enter "Raj","Kumar","Madurai","1234432837788765","VISA","July","2022","897".passed
+And User click on continue for generating order id..........................passed
+Then User print order id in the console.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
